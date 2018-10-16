@@ -58,7 +58,6 @@ namespace UDPSensorBroadcaster
                 try
                 {
                     udpServer.Send(sendBytes, sendBytes.Length, endPoint); //, endPoint
-
                 }
                 catch (Exception e)
                 {
